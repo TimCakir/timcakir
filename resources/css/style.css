@@ -1,5 +1,58 @@
 /* StyleSheet for TimCakir.com */
+/* Colors
+Primary - #ef7f47 Mandarin
+Secondary - #e0e2db Gainsboro
+Third     - #a9cbb7 Turquoise Green
+Fourth    - #9cf6f6 Waterspout
+Fifth     - #5e565a Davy's Gray
+*/
 
 h1 {
   text-align: center;
+  color: #5e565a;
+  padding-top: 1x0px;
+  padding-bottom: 20px;
+}
+
+body {
+}
+
+/* Brand Logo */
+a.brand-logo {
+  color: white;
+  font-family: sans-serif;
+  margin: auto;
+}
+
+/* Material Icons */
+.material-icons {
+  font-size: 7em;
+  color: #ef7f47;
+}
+
+/* center columns with 3 sections */
+.col.s4 {
+  text-align: center;
+}
+
+.promo-caption {
+  color: #5e565a;
+  font-weight: bold;
+}
+
+p.light.center {
+  color: #5e565a;
+}
+
+.nav-extended {
+  background-color: #5e565a;
+}
+
+.page-footer {
+  background-color: #5e565a;
+}
+
+.nav-extended li {
+  color: #5e565a; !important
+
 }
