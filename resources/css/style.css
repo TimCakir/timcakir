@@ -3,7 +3,7 @@
 Primary - #ef6c00 Spanish Orange
 Secondary - #ffffff White
 Third     - #e6e8e6 Platinum
-Fourth    - #ced0ce Pastel Grey
+Fourth    - #484349 Purple Taupe
 Fifth     - #191919 Eerie Black
 */
 
@@ -42,10 +42,14 @@ a.brand-logo {
 .promo-caption {
   color: #191919;
   font-weight: bold;
+  font-size: 1.68rem;
+}
+
+.btn-floating.btn-medium {
 }
 
 p.light.center {
-  color: #ced0ce;
+  color: #484349;
 }
 
 .nav-extended {
