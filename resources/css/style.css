@@ -122,3 +122,10 @@ form p {
 .tick {
   color: #ef6c00;
 }
+
+.tools {
+  margin: 0 auto;
+  max-width: 1260px;
+  width: 100%;
+  border-bottom: 1px solid #e6e8e6;
+}
