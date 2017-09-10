@@ -1,52 +1,64 @@
 /* StyleSheet for TimCakir.com */
+
+
 /* Colors
-Primary - #ef6c00 Spanish Orange
+Primary - #ef6c00 Spanish Orange -orange darken-3-
 Secondary - #ffffff White
 Third     - #e6e8e6 Platinum
 Fourth    - #484349 Purple Taupe
 Fifth     - #191919 Eerie Black
 */
 
-h1 {
+h2.zero-rocket {
   text-align: center;
-  color: #191919;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  color: #484349;
+  padding-bottom: 18px;
 }
 
-body {
+h2.speak {
+  text-align: center;
+  color: #484349;
 }
+
+body {}
+
 
 /* Brand Logo */
+
 a.brand-logo {
   color: white;
   font-family: sans-serif;
   margin: auto;
 }
 
-.video-container {
-  margin: auto;
+.header.center {
+  color: #ef6c00;
 }
 
+
 /* Material Icons */
+
 .material-icons {
   font-size: 7em;
   color: #ef6c00;
 }
 
+
 /* center columns with 3 sections */
+
 .col.s4 {
   text-align: center;
+  padding-top: 15px;
+  padding-bottom: 30px;
 }
 
 .promo-caption {
-  color: #191919;
+  color: #484349;
   font-weight: bold;
   font-size: 1.68rem;
 }
 
-.btn-floating.btn-medium {
-}
+.btn-floating.btn-medium {}
 
 p.light.center {
   color: #484349;
@@ -56,10 +68,57 @@ p.light.center {
   background-color: #191919;
 }
 
+.row.video {
+  background-color: #e6e8e6;
+}
+
 .page-footer {
   background-color: #191919;
 }
 
 .footer-text {
   color: #ced0ce;
+}
+
+li.phone {
+  color: #ef6c00;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#index-banner {
+  background-color: #e6e8e6;
+}
+
+label {}
+
+iframe {}
+
+.col.s7.push-s5 {
+  margin-top: 80px;
+}
+
+form p {
+  font-weight: bold;
+  font-size: 22px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.material-icons.right {
+  color: white;
+}
+
+.container p {
+  text-align: center;
+  color: #484349;
+}
+
+.picker__date-display {
+  background-color: #ef6c00;
+}
+
+.tick {
+  color: #ef6c00;
 }

@@ -9,7 +9,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-  <link rel="stylesheet" type="text/css " href="resources/css/Style.css">
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="resources/css/Style.css">
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="utf-8">
@@ -18,57 +19,64 @@
 
 <body>
   <nav class="nav-extended">
-    <div class="nav-wrapper">
+
+    <div class="nav-wrapper container">
       <a href="#" class="brand-logo">Tim Cakir</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="sass.html">Sass</a></li>
         <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+        <li><a href="collapsible.html">+34 690 909 531</a></li>
+        <li class="social icons"><a class="linkedin icons" href="#fakelink"><img src="" alt=""></a></li>
+        <li class="social icons"><a class="facebook icons" href="#fakelink"><img src="" alt=""></a></li>
+        <li class="social icons"><a class="twitter icons" href="#fakelink"><img src="" alt=""></a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a href="sass.html">Sass</a></li>
         <li><a href="badges.html">Components</a></li>
         <li><a href="collapsible.html">JavaScript</a></li>
       </ul>
-    </div>
-    <div class="nav-content">
-      <ul class="tabs tabs-transparent">
-        <li class="tab"><a href="#test1">Home</a></li>
-        <li class="tab"><a class="active" href="#test2">Media</a></li>
-        <li class="tab"><a href="#test3">Press</a></li>
-        <li class="tab"><a href="#test4">Contact</a></li>
-      </ul>
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+          <li class="tab"><a class="active" href="#test1">Home</a></li>
+          <li class="tab"><a href="#test2">Media</a></li>
+          <li class="tab"><a href="#test3">Press</a></li>
+          <li class="tab"><a data-target="modal1" class="modal-trigger">Contact</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
-  <div class="hero">
-    <div class="row">
-      <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QrZWIeZ1KW4?rel=0" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <!-- Hero Sliders 1 Example
-      <div class="carousel carousel-slider center" data-indicators="true">
-      <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white grey-text darken-text-2">button</a>
-    </div>
 
-    <div class="carousel-item red white-text" href="#one!">
-    <h2>First Panel</h2>
-    <p class="white-text">This is your first panel</p>
-  </div>
--->
+  <!-- Hero Section -->
+  <div class="row">
+    <div class="hero">
+      <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+          <br><br>
+          <h1 class="header center">Starter Template</h1>
+          <div class="row center">
+            <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          </div>
+          <div class="row center">
+            <a id="download-button" data-target="modal1" class="btn-large waves-effect waves-light orange darken-3 pulse modal-trigger">Let's Talk</a>
+          </div>
+          <br><br>
+
+        </div>
+      </div>
     </div>
   </div>
+  <!--  MAIN SECTION -->
   <main>
     <div class="row">
-      <div class="container">
-        <h1>Services</h1>
-          <div class="col s4">
-            <i class="material-icons">settings</i>
-            <p class="promo-caption">Tools Integration</p>
-            <p class="light center flow-text">By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
-            <a class="btn btn-floating btn-medium orange darken-3 pulse"><i class="material-icons">more_horiz</i></a>
-          </div>
+      <div class="container services">
+        <h2 class="zero-rocket">Zero to Rocket</h2>
+        <div class="col s4">
+          <i class="material-icons">settings</i>
+          <p class="promo-caption">Tools Integration</p>
+          <p class="light center flow-text">By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
+          <a class="btn btn-floating btn-medium orange darken-3 pulse"><i class="material-icons">more_horiz</i></a>
+        </div>
         <div class="col s4">
           <i class="material-icons">flash_on</i>
           <p class="promo-caption">Inbound Strategy</p>
@@ -82,6 +90,111 @@
           <a class="btn btn-floating btn-medium orange darken-3 pulse"><i class="material-icons">more_horiz</i></a>
         </div>
       </div>
+    </div>
+    <div class="row video">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <h2 class="speak">Interested in having me speak?</h2>
+          <p>Fill out a booking request</p>
+          <div class="col s7 push-s5"><span class="flow-text">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QrZWIeZ1KW4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen>
+            </iframe>
+            <p>"How to change your b2b/b2c mindset to h2h"<br>Inbound BCN at Itnig on July 13th 2017</p>
+          </span>
+          </div>
+          <div class="col s5 pull-s7">
+            <span class="flow-text">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="phone" type="text" class="validate">
+                  <label for="phone_number">Phone Number</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="datepicker" type="text" class="datepicker">
+                  <label for="datepicker">Suggested Date</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <input type="text" class="timepicker">
+                  <label for="time">Suggested Start Time</label>
+                </div>
+                <div class="input-field col s6">
+                  <input type="text" class="timepicker">
+                  <label for="time">Suggested End Time</label>
+                </div>
+              </div>
+              <button class="btn waves-effect waves-light orange darken-3 special" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
+          </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="phone" type="text" class="validate">
+                <label for="phone_number">Phone Number</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea" data-length="500"></textarea>
+                <label for="textarea1">Message</label>
+              </div>
+            </div>
+            <button class="btn waves-effect waves-light orange darken-3 special" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+          </button>
+          </form>
+        </div>
+      </div>
+      <!-- <div class="modal-footer">
+    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+  </div> -->
     </div>
   </main>
   <footer class="page-footer">
@@ -114,10 +227,35 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
+      // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+      $('.modal').modal();
+    });
+    $(document).ready(function() {
       $('.carousel').carousel();
       $('.carousel.carousel-slider').carousel({
         fullWidth: true
       });
+    });
+    // Pick a time
+    $('.timepicker').pickatime({
+      default: 'now', // Set default time: 'now', '1:30AM', '16:30'
+      fromnow: 0, // set default time to * milliseconds from now (using with default = 'now')
+      twelvehour: false, // Use AM/PM or 24-hour format
+      donetext: 'OK', // text for done-button
+      cleartext: 'Clear', // text for clear-button
+      canceltext: 'Cancel', // Text for cancel-button
+      autoclose: false, // automatic close timepicker
+      ampmclickable: true, // make AM PM clickable
+      aftershow: function() {} //Function for after opening timepicker
+    });
+    //  Pick a Date
+    $('.datepicker').pickadate({
+      selectMonths: true, // Creates a dropdown to control month
+      selectYears: 15, // Creates a dropdown of 15 years to control year,
+      today: 'Today',
+      clear: 'Clear',
+      close: 'Ok',
+      closeOnSelect: false // Close upon selecting a date,
     });
   </script>
 </body>
