@@ -1,16 +1,16 @@
 /* StyleSheet for TimCakir.com */
 /* Colors
-Primary - #ef7f47 Mandarin
-Secondary - #e0e2db Gainsboro
-Third     - #a9cbb7 Turquoise Green
-Fourth    - #9cf6f6 Waterspout
-Fifth     - #5e565a Davy's Gray
+Primary - #ef6c00 Spanish Orange
+Secondary - #ffffff White
+Third     - #e6e8e6 Platinum
+Fourth    - #ced0ce Pastel Grey
+Fifth     - #191919 Eerie Black
 */
 
 h1 {
   text-align: center;
-  color: #5e565a;
-  padding-top: 1x0px;
+  color: #191919;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
@@ -24,10 +24,14 @@ a.brand-logo {
   margin: auto;
 }
 
+.video-container {
+  margin: auto;
+}
+
 /* Material Icons */
 .material-icons {
   font-size: 7em;
-  color: #ef7f47;
+  color: #ef6c00;
 }
 
 /* center columns with 3 sections */
@@ -36,23 +40,22 @@ a.brand-logo {
 }
 
 .promo-caption {
-  color: #5e565a;
+  color: #191919;
   font-weight: bold;
 }
 
 p.light.center {
-  color: #5e565a;
+  color: #ced0ce;
 }
 
 .nav-extended {
-  background-color: #5e565a;
+  background-color: #191919;
 }
 
 .page-footer {
-  background-color: #5e565a;
+  background-color: #191919;
 }
 
-.nav-extended li {
-  color: #5e565a; !important
-
+.footer-text {
+  color: #ced0ce;
 }
