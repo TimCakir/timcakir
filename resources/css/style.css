@@ -70,6 +70,7 @@ p.light.center {
 
 .row.video {
   background-color: #e6e8e6;
+  margin-bottom: 0px;
 }
 
 .page-footer {
@@ -129,4 +130,8 @@ form p {
   width: 100%;
   border-bottom: 1px solid #e6e8e6;
   text-align: center;
+}
+
+.btn.waves-effect.waves-light.orange.darken-3.special {
+  margin-bottom: 50px;
 }
