@@ -20,9 +20,6 @@ h2.speak {
   color: #484349;
 }
 
-body {}
-
-
 /* Brand Logo */
 
 a.brand-logo {
@@ -58,8 +55,6 @@ a.brand-logo {
   font-size: 1.68rem;
 }
 
-.btn-floating.btn-medium {}
-
 p.light.center {
   color: #484349;
 }
@@ -91,10 +86,6 @@ li.phone {
 #index-banner {
   background-color: #e6e8e6;
 }
-
-label {}
-
-iframe {}
 
 .col.s7.push-s5 {
   margin-top: 80px;
@@ -141,4 +132,19 @@ form p {
   width: auto;
   display: block;
   height: 720px;
+}
+
+@media only screen and (max-width: 480px) {
+  iframe {
+    width: 165px;
+    height: auto;
+  }
+
+  .row.video {
+    height: 850px;
+  }
+
+  .material-icons {
+
+  }
 }
