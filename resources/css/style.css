@@ -135,3 +135,11 @@ form p {
 .btn.waves-effect.waves-light.orange.darken-3.special {
   margin-bottom: 50px;
 }
+
+.row.video {
+  min-width: 50%;
+  max-width: 100%;
+  min-height: 200px;
+  max-height: 700px;
+
+}
