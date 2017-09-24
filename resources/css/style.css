@@ -134,6 +134,7 @@ form p {
   height: 720px;
 }
 
+/* Media Screen Adjustments smaller than 480px */
 @media only screen and (max-width: 480px) {
   iframe {
     width: 165px;
@@ -145,6 +146,18 @@ form p {
   }
 
   .material-icons {
+    font-size: 5em;
+  }
 
+  .promo-caption {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+
+  h5 {
+    font-size: 1.2em;
   }
 }
