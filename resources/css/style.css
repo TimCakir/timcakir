@@ -164,4 +164,8 @@ form p {
   h5 {
     font-size: 1.2em;
   }
+
+  .flow-text {
+    font-size: 0.75em;
+  }
 }
