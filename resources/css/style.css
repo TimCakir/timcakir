@@ -136,10 +136,9 @@ form p {
   margin-bottom: 50px;
 }
 
+/* Row of the Video and Form */
 .row.video {
-  min-width: 50%;
-  max-width: 100%;
-  min-height: 200px;
-  max-height: 700px;
-
+  width: auto;
+  display: block;
+  height: 720px;
 }
