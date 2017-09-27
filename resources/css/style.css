@@ -134,8 +134,18 @@ form p {
   height: 720px;
 }
 
-/* Media Screen Adjustments smaller than 480px */
-@media only screen and (max-width: 480px) {
+/* Media Screen Adjustments smaller than 960px */
+@media only screen and (max-width: 960px) {
+  
+  }
+
+  /* Media Screen Adjustments smaller than 700px */
+@media only screen and (max-width: 700px) {
+  
+  }
+
+/* Media Screen Adjustments smaller than 470px */
+@media only screen and (max-width: 470px) {
   iframe {
     width: 165px;
     height: auto;
